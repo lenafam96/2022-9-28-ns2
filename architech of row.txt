@@ -1,0 +1,12 @@
+Định danh kiểu
+Thời gian
+Nút nguồn
+Nút đích
+Tên gói tin
+Kích thước gói tin
+Cờ
+Định danh luồng
+Địa chỉ nguồn
+Địa chỉ đích
+Số thứ tự
+Định danh gói tin
