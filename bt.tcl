@@ -29,6 +29,12 @@ $ns duplex-link $n2 $n4 54Mb 10ms DropTail
 $ns simplex-link $n3 $n4 10Mb 15ms DropTail
 $ns queue-limit $n2 $n3 40
 
+$ns duplex-link-op $n0 $n2 orient right-down
+$ns duplex-link-op $n1 $n2 orient right-up
+$ns duplex-link-op $n2 $n4 orient right
+$ns duplex-link-op $n2 $n3 orient right-down
+$ns simplex-link-op $n3 $n4 orient up
+
 set udp [new Agent/UDP]
 $ns attach-agent $n0 $udp
 set null [new Agent/Null]
